@@ -1,128 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maloca Software House</title>
     <style>
         body {
+            font-family: 'Helvetica', sans-serif;
             margin: 0;
             padding: 0;
-            font-family: sans-serif;
-            background-color: #f2f7f8; /* Light yellow */
-        }
-        .container {
-            max-width: 1024px;
-            margin: 0 auto;
-            padding: 40px;
-        }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        .logo {
-            font-size: 2em;
-            font-weight: bold;
-            color: #5aac44; /* Light green */
-        }
-        .navigation {
-            display: flex;
-            list-style: none;
-            padding: 0;
-        }
-        .navigation li {
-            margin-right: 20px;
-        }
-        .navigation a {
-            text-decoration: none;
+            background-color: #f7f7f7;
             color: #333;
         }
-        .hero {
+
+        header {
+            background-color: #4CAF50;
+            padding: 20px 0;
             text-align: center;
-            margin-bottom: 40px;
         }
-        .hero h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-        }
-        .hero p {
-            font-size: 1.2em;
-            line-height: 1.5;
-        }
-        .services {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        .service {
-            width: calc(33% - 20px);
-            margin: 10px;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-        .service h3 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
-        .service p {
-            font-size: 1em;
-            line-height: 1.5;
-        }
-        .contact {
-            text-align: center;
-            margin-top: 40px;
-        }
-        .contact h2 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-        .contact p {
-            font-size: 1em;
-            line-height: 1.5;
-        }
-        .call-to-action {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-        .call-to-action a {
-            background-color: #5aac44; /* Light green */
+
+        header h1 {
+            margin: 0;
             color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
+            font-size: 36px;
         }
-        @media (max-width: 768px) {
-            .services {
-                flex-direction: column;
-            }
-            .service {
-                width: 100%;
-            }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .call-to-action {
+            margin-top: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #4CAF50;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
         }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <header class="header">
-            <h1 class="logo">Maloca</h1>
-            <nav class="navigation">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
-            </nav>
-        </header>
-        <section class="hero">
-            <h1>Craft your digital dreams with Maloca</h1>
-            <p>We are a software house passionate about building innovative and user-friendly solutions.</p>
-        </section>
-        <section class="services">
-            <article class="service">
-                <h3>Web Development</h3>
-                <p>We build beautiful and functional websites and web applications that engage your users.</p>
+    <header>
+        <h1>Maloca Software House</h1>
+    </header>
+
+    <main>
+        <h2>Welcome to Innovation</h2>
+        <p>We are a leading software development company committed to delivering cutting-edge solutions to our clients. Our team of experts is dedicated to bringing your ideas to life with top-notch technology and innovation.</p>
+
+        <div class="call-to-action">
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Maloca Software House. All rights reserved.
+    </footer>
+</body>
+
+</html>
